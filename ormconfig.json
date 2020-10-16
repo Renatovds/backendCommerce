@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "192.168.99.100",
+  "host": "localhost",
   "port": "5432",
   "username": "postgres",
   "password": "docker",
-  "database": "ecommerce",
+  "database": "gostack_desafio09_tests",
   "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
   "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
   "cli": {
